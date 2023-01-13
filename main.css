@@ -923,15 +923,20 @@ img {
         }
         .recipes__medium-wrap{
             top: 25px;
-            left:  170px;
-        }
+            left:  11px;
+	text-align: center;}
         .img__line{margin-left: 175px;
             margin-top: 25px;
             margin-bottom: 25px;}
         .images__work-events{margin-left: 40px;}
         .img__line{margin-left: 160px;}
-        .recipes__name-person{margin-top: 20px;}
-        .recipes__small-wrap{margin-top: 0px;}
+        .recipes__name-person{margin-top: 20px;
+	font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;}
+        .recipes__small-wrap{margin-top: 0px;
+	align-items: center;
+    justify-content: center;}
         .images__dishes{margin-left: 5px;}
         .lunch__small{margin-left: 10px;}
         .dinner__small{ margin-left: 0px;}
@@ -940,5 +945,16 @@ img {
             justify-content: center;
             align-items: center;
             margin-left: 0;}
+	.recipes__date {margin-top: 35px;}
+	.recipes__lorem-text{font-size: 17px;
+    font-weight: 400;
+    line-height: 18px;
+	margin-top: 5px;}
+	.lunch__lorem-text{font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;}
+	.dinner__lorem-text{font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;}
         .footer__wrapper{margin-top: 0px;}
 }
