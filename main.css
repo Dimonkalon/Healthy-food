@@ -226,6 +226,7 @@ img {
     background: #1b562a;
     color: #34C759;
     transition: all 0.7s ease;
+    cursor: pointer;
 }
 /*_____________________________*/
 .wrapper__working-today{
@@ -545,6 +546,7 @@ img {
     background: #34C759;
     color: #252525;
     transition: all 0.7s ease;
+    cursor: pointer;
 }
 /*****************************section5*******************************/
 .block__chefs{
@@ -672,6 +674,7 @@ img {
     letter-spacing: 1.25 px;
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
 }
 .recipes__date{
     font-family: Helvetica Neue;
