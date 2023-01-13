@@ -880,7 +880,7 @@ img {
             flex-direction: column;
         }
         .block__about-us{
-            height: 1055px;
+            height: 1075px;
         }
         .wrapper__about-us{
             flex-direction: column;
@@ -904,12 +904,16 @@ img {
             .img__about-one{margin-left: 10px;margin-top: 15px;}
         .dish__wrapper-header{margin-top: 5px;}
         .img__share {right: 20px;}
+	.favourite__food-fresh{font-size:47px;}
         .recipes__block-wrapper{
             display: flex;
             flex-direction: column;
         }
         .block__chefs-wrapper{
-            display: block;
+            display: flex;
+	    flex-direction:column;
+	    gap:25px;
+	    align-items: center;
         }
         .recipes__medium-wrap{
             top: 25px;
