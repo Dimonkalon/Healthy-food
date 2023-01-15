@@ -873,6 +873,8 @@ img {
             display: flex;
             flex-direction: column;}
         .menu_body{display: none;}
+	.your__delivered{font-size: 32px;
+    line-height: 20.38px;}
         .logotext{margin-left: 15px;}
         .burger{display: block;background: #34C759;}
         .burger:hover{background: #121512;
@@ -886,7 +888,7 @@ img {
             flex-direction: column;
         }
         .block__about-us{
-            height: 1075px;
+            height: 920px;
         }
         .wrapper__about-us{
             flex-direction: column;
@@ -906,8 +908,8 @@ img {
             .wrapper__about-us{margin-top: 22px;}
             .arrow__left{margin: 0;}
             .arrow__right{margin-top: 25px;}
-            .img__about-two{margin-left: 10px;margin-top: 15px;}
-            .img__about-one{margin-left: 10px;margin-top: 15px;}
+            .img__about-two{margin-left: 10px;margin-top: 15px;width: 245px;}
+            .img__about-one{margin-left: 10px;margin-top: 15px;width: 245px;}
         .dish__wrapper-header{margin-top: 5px;}
         .img__share {right: 20px;}
 	.favourite__food-fresh{font-size:47px;}
@@ -949,11 +951,12 @@ img {
 	.recipes__lorem-text{font-size: 17px;
     font-weight: 400;
     line-height: 18px;
-	margin-top: 5px;}
-	.lunch__lorem-text{font-size: 14px;
+	margin-top: 5px;
+	margin-left:0;}
+	.lunch__lorem-text{font-size: 13px;
     font-weight: 400;
-    line-height: 20px;}
-	.dinner__lorem-text{font-size: 14px;
+    line-height: 30px;}
+	.dinner__lorem-text{font-size: 13px;
     font-weight: 400;
     line-height: 20px;}
         .footer__wrapper{margin-top: 0px;}
